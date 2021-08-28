@@ -1,0 +1,18 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  color: $very-dark-magenta;
+  background-image: url(/images/bg-pattern-top-mobile.svg),
+    url(/images/bg-pattern-bottom-mobile.svg);
+  background-attachment: fixed;
+  background-position: left top, bottom right;
+  background-repeat: no-repeat;
+}

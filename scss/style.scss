@@ -10,7 +10,6 @@
 }
 
 //Main text section
-
 .heading {
   padding: 0 1em;
 }
@@ -23,7 +22,6 @@
 }
 
 //Ratings section
-
 .ratings {
   margin-bottom: 2em;
   display: flex;
@@ -99,11 +97,11 @@
   }
 
   .container {
-    width: 85%;
+    width: 80%;
     display: grid;
     row-gap: 2em;
-    margin-bottom: 3em;
-    
+    margin-bottom: 2em;
+
     .text {
       grid-area: 1 / 1 / 4 / 4;
       text-align: left;
@@ -138,7 +136,7 @@
 
       .stars {
         margin: 0;
-        margin-right: 3em; 
+        margin-right: 3em;
       }
     }
 

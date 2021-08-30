@@ -123,10 +123,10 @@ body {
   }
 
   .container {
-    width: 85%;
+    width: 80%;
     display: grid;
     row-gap: 2em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
   }
   .container .text {
     grid-area: 1/1/4/4;

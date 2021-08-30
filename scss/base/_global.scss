@@ -3,7 +3,8 @@
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: $soft-pink;
+  font-weight: bold;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
   color: $very-dark-magenta;
   background-image: url(/images/bg-pattern-top-mobile.svg),
     url(/images/bg-pattern-bottom-mobile.svg);
-  background-attachment: fixed;
   background-position: left top, bottom right;
   background-repeat: no-repeat;
+  
 }

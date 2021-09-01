@@ -2,6 +2,8 @@
 
 This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+![](./design/design-preview.jpg)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -28,10 +30,8 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-![](./screenshot.jpg)
-
-| Mobile (375px)                                 | Desktop (1440px)                                 |
-| ---------------------------------------------- | ------------------------------------------------ |
+| Mobile (375px)                              | Desktop (1440px)                              |
+| ------------------------------------------- | --------------------------------------------- |
 | ![Mobile](./screenshots/mobile-version.png) | ![Desktop](./screenshots/desktop-version.png) |
 
 ### Links

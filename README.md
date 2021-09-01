@@ -28,10 +28,16 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
+![](./screenshot.jpg)
+
+| Mobile (375px)                                 | Desktop (1440px)                                 |
+| ---------------------------------------------- | ------------------------------------------------ |
+| ![Mobile](./screenshots/mobile-version.png) | ![Desktop](./screenshots/desktop-version.png) |
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/amallen1/social-proof)
+- Live Site URL: [Live site](https://affectionate-albattani-30a750.netlify.app/)
 
 ## My process
 
@@ -45,10 +51,10 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to use CSS and Flexbox together a little more seamlessly. Thanks to this project, I also learned about
-file architecture when it comes to using SASS. I used to just use one Sass file but I'm learning for more complex projects and to be organized in general it's best to split files up.
+I learned how to use CSS and Flexbox together a little more seamlessly. During this project I also learned about
+file architecture when it comes to using SASS. I used to just use one large Sass file but I'm learning for more complex projects and to be organized in general it's best to split files up.
 
-Also one of the biggest obstacles for me during this challenge was understanding when to use Flexbox vs Grid. Flexbox made it really easy to create the mobile version of the design, but I was a little overwhelemed when I had to implement the design for tablets and desktop screen sizes.
+Also one of the biggest obstacles for me during this challenge was understanding when to use Flexbox vs Grid. Flexbox made it really easy to create the mobile version of the design, but I was a little overwhelemed when I had to implement the design for tablets and desktop screen sizes. I finally came to the conclusion that grid helped me to structure the layout of the design in the right places, and flexbox helped me to move them around within those containers so that it could look similar to the design.
 
 ### Continued development
 
@@ -56,17 +62,15 @@ Also one of the biggest obstacles for me during this challenge was understanding
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=nu5mdN2JIwM&ab_channel=TraversyMedia) - This video helped me to understand the file structure that is best practice when using SASS.
+- [Traversy Media's Youtube Video](https://www.youtube.com/watch?v=nu5mdN2JIwM&ab_channel=TraversyMedia) - This video helped me to understand the file structure that is best practice when using SASS.
 
-- [Kevin Powell](https://www.youtube.com/watch?v=K27WULzr2P8&ab_channel=KevinPowell) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Kevin Powell's Youtube Video](https://www.youtube.com/watch?v=K27WULzr2P8&ab_channel=KevinPowell) - Kevin Powell's solution helped me to understand better how to organize the structure of CSS grid code so that it could work well with flexbox.
 
 ## Author
 
 - Frontend Mentor - [@amallen1](https://www.frontendmentor.io/profile/amallen1)
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 - Kevin Powell
 

@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
 @import "./base/config"; //colors
 @import "./base/reset"; //resetting styles
 @import "./base/global"; //global styles
@@ -6,7 +5,8 @@
 .container {
   text-align: center;
   padding: 1.2em;
-  margin: 5em 0 0;
+  margin: 5em auto;
+  max-width: 750px;
 }
 
 //Main text section
@@ -21,9 +21,9 @@
   line-height: 1.7;
 }
 
-//Ratings section
+//5 Star Ratings section
 .ratings {
-  margin-bottom: 2em;
+  margin-bottom: 2.25em;
   display: flex;
   flex-direction: column;
 
@@ -36,19 +36,18 @@
     font-size: 0.875em;
 
     .stars {
-      margin-bottom: 0.75em;
+      margin-bottom: 1em;
       display: flex;
       justify-content: center;
     }
 
     img {
-      margin-right: 0.25em;
+      margin-right: 0.5em;
     }
   }
 }
 
 //Testimonial section
-
 .testimonials {
   display: flex;
   flex-direction: column;
@@ -60,7 +59,7 @@
     border-radius: 10px;
     margin-bottom: 1em;
     text-align: left;
-    line-height: 1.8;
+    line-height: 1.8; 
 
     img {
       border-radius: 50%;
@@ -79,13 +78,13 @@
     }
 
     .content {
-      font-size: 14px;
+      font-size: 0.9em;
     }
   }
 }
 
-//Media query
-@media (min-width: 814px) {
+//Media query for laptop screens
+@media (min-width: 985px) {
   body {
     background-image: url(/images/bg-pattern-top-mobile.svg),
       url(/images/bg-pattern-bottom-desktop.svg);
@@ -100,7 +99,7 @@
     width: 80%;
     display: grid;
     row-gap: 2em;
-    margin-bottom: 2em;
+    max-width: none;
 
     .text {
       grid-area: 1 / 1 / 4 / 4;
@@ -152,10 +151,6 @@
 
       & > :nth-child(3) {
         transform: translateY(2em);
-      }
-
-      .review {
-        margin-bottom: 0;
       }
     }
   }
